@@ -155,9 +155,9 @@ export default function PorQueNB() {
           .pqnb-layout { grid-template-columns: 1fr; gap: 40px; }
           .pqnb-col, .pqnb-col.izq, .pqnb-col.der { text-align: left; }
           .pqnb-col.izq .pqnb-item { flex-direction: row; }
-          .pqnb-foto { min-height: 340px; order: -1; }
-          .pqnb-foto::before { width: 320px; height: 320px; }
-          .pqnb-foto img { transform: scale(1.4); }
+            .pqnb-foto { min-height: 300px; order: -1; padding: 0 10px; }
+          .pqnb-foto::before { width: 280px; height: 280px; }
+          .pqnb-foto img { position: relative; inset: auto; width: 100%; height: 300px; transform: none; }
         }
       `}</style>
 
