@@ -104,7 +104,7 @@ button { cursor: pointer; font-family: inherit; }
   display: none;
   background: none;
   border: none;
-  color: var(--blanco);
+    color: #1B4FA0;
   font-size: 26px;
   padding: 4px;
 }
@@ -558,17 +558,29 @@ section { padding: 100px 0; }
 
   .hero { min-height: auto; }
   .hero-content { padding: 100px 0 60px; }
-  .hero h1 { font-size: 32px; }
-  .hero p { font-size: 16px; }
+  .hero h1 { font-size: 28px; letter-spacing: -0.5px; line-height: 1.25; }
+  .hero p { font-size: 15px; padding-right: 8px; }
   .hero-stats { gap: 28px; flex-wrap: wrap; }
   .hero-buttons { flex-direction: column; align-items: stretch; }
   .btn-primary, .btn-outline { justify-content: center; }
 
   section { padding: 64px 0; }
+  .section-title { font-size: 26px; }
+  .section-eyebrow { font-size: 11px; letter-spacing: 1.5px; }
+  .section-desc { font-size: 15px; }
+
   .servicios-grid { grid-template-columns: 1fr; gap: 16px; }
+
   .contacto-grid { grid-template-columns: 1fr; }
   .contacto-form { padding: 24px 20px; }
+  .contacto-form h3 { font-size: 18px; }
+  .contacto-item h4 { font-size: 14px; }
+  .contacto-item p { font-size: 13px; }
+  .contacto-item-icon { width: 38px; height: 38px; }
+  .form-group label { font-size: 12px; }
   .form-row { grid-template-columns: 1fr; }
+  .btn-whatsapp { font-size: 14px; padding: 12px 20px; }
+
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bar { flex-direction: column; gap: 8px; text-align: center; }
 }
