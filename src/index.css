@@ -534,6 +534,7 @@ section { padding: 100px 0; }
   font-size: 13px;
 }
 
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 900px) {
   .navbar-links { display: none; }
@@ -547,27 +548,37 @@ section { padding: 100px 0; }
     padding: 20px 24px;
     gap: 16px;
     border-bottom: 1px solid rgba(255,255,255,0.08);
-      .container { padding: 0 20px; }
+  }
+
+  .container { padding: 0 20px; }
 
   .nosotros-grid { grid-template-columns: 1fr; gap: 32px; }
   .nosotros-imagen { width: 100%; }
+  .nosotros-valores { grid-template-columns: 1fr; }
 
   .hero { min-height: auto; }
-  .hero-content { padding: 110px 20px 70px; }
+  .hero-content { padding: 100px 0 60px; }
+  .hero h1 { font-size: 32px; }
   .hero p { font-size: 16px; }
+  .hero-stats { gap: 28px; flex-wrap: wrap; }
   .hero-buttons { flex-direction: column; align-items: stretch; }
   .btn-primary, .btn-outline { justify-content: center; }
 
-  .servicios-grid { grid-template-columns: 1fr; gap: 16px; }
-  .contacto-form { padding: 24px 20px; }
-  }
-  .hero-content { padding: 100px 0 60px; }
-  .hero h1 { font-size: 32px; }
-  .hero-stats { gap: 28px; flex-wrap: wrap; }
-  .nosotros-valores { grid-template-columns: 1fr; }
   section { padding: 64px 0; }
+  .servicios-grid { grid-template-columns: 1fr; gap: 16px; }
   .contacto-grid { grid-template-columns: 1fr; }
+  .contacto-form { padding: 24px 20px; }
+  .form-row { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bar { flex-direction: column; gap: 8px; text-align: center; }
-  .form-row { grid-template-columns: 1fr; }
+}
+
+#root {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+.pqnb-foto,
+.nosotros-imagen {
+  max-width: 100%;
 }
