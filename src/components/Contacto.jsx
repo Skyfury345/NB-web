@@ -144,9 +144,12 @@ export default function Contacto() {
           padding: 0 2rem;
         }
         .nb-form-2col { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
-        @media (max-width: 900px) {
+            @media (max-width: 900px) {
           .nb-contacto-grid { grid-template-columns: 1fr; gap: 2.5rem; }
           .nb-form-2col { grid-template-columns: 1fr; }
+          .nb-contacto-grid h4 { font-size: 0.95rem !important; }
+          .nb-contacto-grid h4 + div { font-size: 0.85rem !important; }
+          #contacto h2 { font-size: 1.6rem !important; }
         }
       `}</style>
 

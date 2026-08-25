@@ -555,13 +555,14 @@ section { padding: 100px 0; }
   .container { padding: 0 20px; }
 
   .hero { min-height: auto; }
-  .hero-content { padding: 100px 0 60px; }
+  .hero-content { padding: 100px 16px 60px; }
   .hero-badge { margin-bottom: 16px; }
-  .hero h1 {
-    font-size: 1.65rem;
-    line-height: 1.35;
-    letter-spacing: -0.01em;
-    margin-bottom: 20px;
+   .hero h1 {
+    font-size: 1.35rem;
+    line-height: 1.5;
+    letter-spacing: 0;
+    margin-bottom: 24px;
+    padding-right: 16px;
   }
   .hero h1 em { color: #3B82F6; }
   .hero p {
