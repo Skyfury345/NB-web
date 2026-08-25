@@ -550,6 +550,9 @@ section { padding: 100px 0; }
     border-bottom: 1px solid rgba(255,255,255,0.08);
   }
 
+  .navbar-links.open a { color: #FFFFFF; font-size: 16px; }
+  .navbar-links.open .btn-login { color: #FFFFFF; background: #1B4FA0; }
+
   .container { padding: 0 20px; }
 
   .nosotros-grid { grid-template-columns: 1fr; gap: 32px; }
@@ -558,7 +561,7 @@ section { padding: 100px 0; }
 
   .hero { min-height: auto; }
   .hero-content { padding: 100px 0 60px; }
-  .hero h1 { font-size: 28px; letter-spacing: -0.5px; line-height: 1.25; }
+   .hero h1 { font-size: 26px; letter-spacing: 0; line-height: 1.4; margin-bottom: 24px; }
   .hero p { font-size: 15px; padding-right: 8px; }
   .hero-stats { gap: 28px; flex-wrap: wrap; }
   .hero-buttons { flex-direction: column; align-items: stretch; }
