@@ -549,20 +549,27 @@ section { padding: 100px 0; }
     gap: 16px;
     border-bottom: 1px solid rgba(255,255,255,0.08);
   }
-
   .navbar-links.open a { color: #FFFFFF; font-size: 16px; }
   .navbar-links.open .btn-login { color: #FFFFFF; background: #1B4FA0; }
 
   .container { padding: 0 20px; }
 
-  .nosotros-grid { grid-template-columns: 1fr; gap: 32px; }
-  .nosotros-imagen { width: 100%; }
-  .nosotros-valores { grid-template-columns: 1fr; }
-
   .hero { min-height: auto; }
   .hero-content { padding: 100px 0 60px; }
-   .hero h1 { font-size: 26px; letter-spacing: 0; line-height: 1.4; margin-bottom: 24px; }
-  .hero p { font-size: 15px; padding-right: 8px; }
+  .hero-badge { margin-bottom: 16px; }
+  .hero h1 {
+    font-size: 1.65rem;
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+  }
+  .hero h1 em { color: #3B82F6; }
+  .hero p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    padding-right: 8px;
+    margin-bottom: 28px;
+  }
   .hero-stats { gap: 28px; flex-wrap: wrap; }
   .hero-buttons { flex-direction: column; align-items: stretch; }
   .btn-primary, .btn-outline { justify-content: center; }
@@ -571,6 +578,10 @@ section { padding: 100px 0; }
   .section-title { font-size: 26px; }
   .section-eyebrow { font-size: 11px; letter-spacing: 1.5px; }
   .section-desc { font-size: 15px; }
+
+  .nosotros-grid { grid-template-columns: 1fr; gap: 32px; }
+  .nosotros-imagen { width: 100%; }
+  .nosotros-valores { grid-template-columns: 1fr; }
 
   .servicios-grid { grid-template-columns: 1fr; gap: 16px; }
 
@@ -587,7 +598,6 @@ section { padding: 100px 0; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bar { flex-direction: column; gap: 8px; text-align: center; }
 }
-
 #root {
   max-width: 100%;
   overflow-x: clip;
