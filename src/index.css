@@ -17,7 +17,7 @@
   --transicion: 0.3s ease;
 }
 
-html { scroll-behavior: smooth; }
+html, body { scroll-behavior: smooth; max-width: 100%; overflow-x: hidden; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--texto);
@@ -551,7 +551,8 @@ section { padding: 100px 0; }
   .hero-content { padding: 100px 0 60px; }
   .hero h1 { font-size: 32px; }
   .hero-stats { gap: 28px; flex-wrap: wrap; }
-  .nosotros-grid { grid-template-columns: 1fr; }
+  .nosotros-valores { grid-template-columns: 1fr; }
+  section { padding: 64px 0; }
   .contacto-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-bar { flex-direction: column; gap: 8px; text-align: center; }

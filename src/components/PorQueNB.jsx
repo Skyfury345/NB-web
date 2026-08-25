@@ -129,11 +129,11 @@ export default function PorQueNB() {
           margin: 0; color: #5A6472;
           font-size: 14px; line-height: 1.55;
         }
-
         .pqnb-foto {
           position: relative;
           display: flex; align-items: center; justify-content: center;
           min-height: 560px;
+          overflow: hidden;
         }
         .pqnb-foto::before {
           content: '';
